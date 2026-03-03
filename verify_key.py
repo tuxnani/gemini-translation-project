@@ -2,7 +2,7 @@ import google.generativeai as genai
 import os
 import sys
 
-key = "AIzaSyBUtbhllzZSx-8BXmYwTa2Fo3CzrHAugXM"
+key = <add key here>
 
 try:
     genai.configure(api_key=key)
@@ -14,3 +14,4 @@ except Exception as e:
     with open("error_log.txt", "w") as f:
         f.write(f"{type(e).__name__}: {e}")
     sys.exit(1)
+
