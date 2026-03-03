@@ -1,0 +1,7 @@
+This is a sample text file to test the translation app.
+It has some line breaks that should be removed.
+However, it also has paragraphs.
+
+This is a new paragraph. It should be kept separate from the previous one.
+The translation should be colloquial and accurate.
+Hopefully, Gemini can handle this well.
